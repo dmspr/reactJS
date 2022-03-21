@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.background {
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .homepage-page {
+        border-radius: 15px;
+        height: 80%;
+        width: 930px;
+        margin: 100px;
+        background-color: #fee94e;
+        display: flex;
+        flex-direction: row;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+
+    .homepage-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        .picture {
+            position: relative;
+            left: 30px;
+            width: 450px;
+            height: 450px;
+        }
+    }
+
+    .homepage-left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        .left-top {
+            height: 15%;
+
+            .logo {
+                margin-top: 15px;
+                height: 55px;
+                width: 85px;
+                margin-left: 15px;
+                border-top-left-radius: 15px;
+            }
+        }
+
+        .left-bot {
+            height: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                font-family: "Playfair Display", serif;
+                font-size: 40px;
+                line-height: 40px;
+                font-weight: bold;
+                margin: 0.3rem;
+                display: flex;
+                position: relative;
+                bottom: 7%;
+            }
+            p {
+                font-size: 12px;
+                line-height: 0;
+                margin: 0.5rem;
+                display: flex;
+                position: relative;
+                bottom: 2%;
+            }
+
+            .btn-catalog {
+                width: 100px;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 500;
+                display: inline-block;
+                margin-top: 30px;
+                -webkit-transition: 0.3s linear;
+                -moz-transition: 0.3s linear;
+                -ms-transition: 0.3s linear;
+                -o-transition: 0.3s linear;
+                transition: 0.3s linear;
+                background-color: #e99c2e;
+                border: 1px solid#e99c2e;
+                margin-right: 15px;
+            }
+
+            .btn-signin {
+                width: 100px;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 500;
+                display: inline-block;
+                margin-top: 30px;
+                -webkit-transition: 0.3s linear;
+                -moz-transition: 0.3s linear;
+                -ms-transition: 0.3s linear;
+                -o-transition: 0.3s linear;
+                transition: 0.3s linear;
+                background-color: #4e63fe;
+                border: 1px solid#4E63FE;
+            }
+        }
+    }
+
+    @media (max-width: 860px) {
+        .homepage-right {
+            display: none;
+        }
+
+        .homepage-page {
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem;
+        }
+        .homepage-left {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            .left-top {
+                height: 15%;
+                margin-bottom: 100px;
+                display: flex;
+                justify-content: center;
+
+                .logo {
+                    margin-top: 0;
+                    height: 40px;
+                    width: 60px;
+                    border-radius: 20px;
+                }
+            }
+
+            .left-bot {
+                height: 85%;
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 80px;
+                p {
+                    font-size: 8px;
+                    line-height: 0;
+                    display: flex;
+                    position: relative;
+                    bottom: 2%;
+                }
+
+                .btn-catalog {
+                    height: 30px;
+                    width: 60px;
+                    border-radius: 5px;
+                    font-size: 8px;
+                    font-weight: 500;
+                    display: inline-block;
+                    margin-top: 30px;
+                    -webkit-transition: 0.3s linear;
+                    -moz-transition: 0.3s linear;
+                    -ms-transition: 0.3s linear;
+                    -o-transition: 0.3s linear;
+                    transition: 0.3s linear;
+                    margin-right: 15px;
+                }
+
+                .btn-signin {
+                    height: 30px;
+                    width: 60px;
+                    border-radius: 5px;
+                    font-size: 8px;
+                    font-weight: 500;
+                    display: inline-block;
+                    margin-top: 30px;
+                    -webkit-transition: 0.3s linear;
+                    -moz-transition: 0.3s linear;
+                    -ms-transition: 0.3s linear;
+                    -o-transition: 0.3s linear;
+                    transition: 0.3s linear;
+                }
+                h2 {
+                    font-family: "Playfair Display", serif;
+                    font-size: 30px;
+                    line-height: 40px;
+                    font-weight: bold;
+                    // display: flex;
+                    // position: relative;
+                    bottom: 7%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "name": "Meja Lucu",
+      "price": "500000",
+      "stock": "12",
+      "category": "Meja",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/512/0551240_PE658473_S5.jpg",
+      "id": 3
+    },
+    {
+      "name": "LANDSKRONA",
+      "price": "5000000",
+      "stock": "2",
+      "category": "Sofa",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/209/0320930_PE514808_S5.jpg",
+      "id": 4
+    },
+    {
+      "name": "Bantal leher LÅNESPELARE ",
+      "price": "199000",
+      "stock": "1",
+      "category": "Bantal",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/pageImages/page__en_us_1632813632__0.png",
+      "id": 5
+    },
+    {
+      "name": "Lampu meja LED, ISKÄRNA,",
+      "price": "299000",
+      "stock": "1",
+      "category": "Meja",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/pageImages/insp_block_6845_en_us_16345282131.png",
+      "id": 6
+    },
+    {
+      "name": "Karpet Wol Synthetic",
+      "price": "489000",
+      "stock": "1",
+      "category": "Karpet",
+      "picture": "https://lzd-img-global.slatic.net/g/p/fd289ac3a527b82ffaefefb16e7b1923.jpg_720x720q80.jpg_.webp",
+      "id": 7
+    },
+    {
+      "name": "MICKE",
+      "price": "899000",
+      "stock": "2",
+      "category": "Meja",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/360/0736021_PE740348_S5.jpg",
+      "id": 8
+    },
+    {
+      "name": "BESTÅ meja TV, Lappviken ",
+      "price": "3295000",
+      "stock": "1",
+      "category": "Meja",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/pageImages/page__en_us_1646983201_11_0.jpeg",
+      "id": 9
+    },
+    {
+      "name": "Sofa Belanda",
+      "price": "8965000",
+      "stock": "2",
+      "category": "Sofa",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/pageImages/page__en_us_1646983201_11_1.jpeg",
+      "id": 10
+    },
+    {
+      "name": "IDANÄS",
+      "price": "4569000",
+      "stock": "3",
+      "category": "Kasur",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/pageImages/page__en_us_1624242428__0.jpeg",
+      "id": 11
+    },
+    {
+      "name": "GURSKEN",
+      "price": "1299900",
+      "stock": "3",
+      "category": "Lemari",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/397/0939784_PE794701_S5.jpg",
+      "id": 12
+    },
+    {
+      "name": "IDANÄS brown",
+      "price": "10499000",
+      "stock": "1",
+      "category": "Lemari",
+      "picture": "https://d2xjmi1k71iy2m.cloudfront.net/dairyfarm/id/images/318/0931801_PE791214_S5.jpg",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "email": "testdev@mail.com",
+      "password": "$2a$10$X.es.XqP9OsID0O5UZq3gOQfx7VR3L2iA.hNMNIWi16fHdYROkT02",
+      "username": "testdev@mail.com",
+      "id": 1
+    },
+    {
+      "email": "dimas.prasetyo.aw@gmail.comasd",
+      "password": "$2a$10$Gg4ZGHFXBRfF6wGdyb3WXeytfE3noluVaIlslPJNZuHS59Z2qNUGe",
+      "fullName": "dimas prasetyo aw",
+      "id": 2
+    },
+    {
+      "email": "dimas.prasetyo.aw@gmail.com",
+      "password": "$2a$10$LG6Gd/MHzeaVAQmP7drdL.tDfsnWKf6VIVZjG0Nb0z89sOHh3qrzq",
+      "fullName": "dimas prasetyo aw",
+      "id": 3
+    },
+    {
+      "email": "dimsprsty@gmail.com",
+      "password": "$2a$10$hejB/QBK52IseVeriJbI7OP2/sqyuc0xD6Qh8oOhTCiYnI1zE5y9K",
+      "id": 4
+    },
+    {
+      "email": "testdev@gmail.com",
+      "password": "$2a$10$blpQl7L/qyCYjnaX3XtmTOHlEA/4fkEt3CEfNzOytyLRJx1Roc6TO",
+      "name": "dimas",
+      "id": 5
+    },
+    {
+      "email": "developer@gmail.com",
+      "password": "$2a$10$.6DFT6niqMi5Z9HNUhUH/.IoTynYP1os4ISQD1WJP.8jU9o1L08UK",
+      "name": "test",
+      "id": 6
+    },
+    {
+      "email": "coba123@gmail.com",
+      "password": "$2a$10$uScpAgm39X9pKmuOSKuNre2f8Q/Rt4inTDbF/B/5b8D9PrVT6Kfvy",
+      "name": "coba",
+      "address": "jalan kapuas",
+      "id": 7
+    },
+    {
+      "email": "dev@gmail.com",
+      "password": "$2a$10$Go1C8qX9u8x3RYsW5fAYy.ga/i1KoUh1VnCupUQEJd.fN1O43aGpO",
+      "name": "developer",
+      "address": "developer",
+      "id": 8
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$86l6yjOsXGXgGlSSWwnizeZ.OdY3cSDfeor1bRcbphI9whfWALIqi",
+      "name": "test@gmail.com",
+      "address": "test@gmail.com",
+      "id": 9
+    }
+  ]
+}
