@@ -17,7 +17,7 @@ const Search = () => {
 
 
     return (
-        <InputGroup w="40%">
+        <InputGroup w="200%">
             <Input type="text" bg="white" onChange={handleChange} value={keyword} placeholder="Search...." />
         </InputGroup>
 
